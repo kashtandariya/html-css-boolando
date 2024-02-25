@@ -22,6 +22,7 @@ img {
 .row {
 	display: flex;
 	flex-wrap: wrap;
+	row-gap: 25px;
 }
 
 /* HEADER */
@@ -57,6 +58,10 @@ img {
 }
 
 /* CONTAINER */
+section {
+	padding: 20px 0;
+}
+
 .title-header {
 	display: flex;
 	flex-direction: column;
@@ -72,8 +77,8 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 20px
-	flex-wrap: wrap;
+	width: 300px;
+	border: 1px solid rgba(214, 209, 209, 0.678);
 }
 
 .card img {
@@ -82,9 +87,20 @@ img {
 }
 
 .item__info {
-	flex-wrap: wrap;
+	flex-direction: column;
+	align-self: flex-start;
+	padding: 10px 5px;
 }
 
-.row > * {
-	padding: 0 20px;
+.brand__name {
+	font-weight: normal;
+}
+
+.price {
+	color: red;
+}
+
+span {
+	color: black;
+	text-decoration: line-through;
 }

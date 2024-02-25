@@ -1,3 +1,5 @@
+/* RESET E REGOLE INIZIALI DA METTERE TIPO SEMPRE */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -22,10 +24,6 @@ img {
 	flex-wrap: wrap;
 }
 
-.row > * {
-	padding: 0 12px;
-}
-
 /* HEADER */
 .page-header {
 	background-color: orange;
@@ -34,7 +32,7 @@ img {
 
 .page-header .row {
 	justify-content: space-between;
-	height: 90px;
+	height: 80px;
 	align-items: center;
 }
 
@@ -42,35 +40,51 @@ img {
     display: flex;
 }
 
+.menu__item {
+	padding: 0 5px;
+}
+
 .logo {
     display: flex;
     justify-content: center;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .logo img {
-	height: 40px;
+	height: 30px;
 	display: block;
 }
 
+/* CONTAINER */
 .title-header {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
+
+.banner .col33 {
+	width: 33%;
+}
+/* setta sempre delle colonne con misure intelligenti */
 
 .card {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	padding: 20px
 	flex-wrap: wrap;
 }
 
 .card img {
-	width: 250px;
+	width: 300px;
 	display: block;
 }
 
 .item__info {
 	flex-wrap: wrap;
+}
+
+.row > * {
+	padding: 0 20px;
 }

@@ -25,6 +25,7 @@ img {
 
 .row > * {
 	padding: 0 12px;
+	display: flex;
 }
 
 /* HEADER */
@@ -56,12 +57,14 @@ img {
 }
 
 .card {
-	display: flex;
 	align-items: center;
 }
 
 .card img {
-	width: 300px;
+	width: 250px;
 	display: block;
 }
 
+.item__info {
+	flex-wrap: wrap;
+}

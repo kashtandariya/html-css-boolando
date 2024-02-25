@@ -42,7 +42,7 @@ img {
 }
 
 .menu__item {
-	padding: 0 5px;
+	padding: 0 8px 0 0;
 }
 
 .logo {
@@ -103,4 +103,25 @@ section {
 span {
 	color: black;
 	text-decoration: line-through;
+}
+
+/* FOOTER */
+.page-footer {
+	background-color: black;
+	color: white;
+}
+
+.page-footer .row {
+	justify-content: space-between;
+	height: 80px;
+	align-items: center;
+}
+
+.copyright {
+	padding: 0 5px;
+}
+
+.copyright__menu {
+	display: flex;
+	flex-direction: row;
 }
